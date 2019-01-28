@@ -1,0 +1,44 @@
+.title {
+    font-style: italic;
+}
+p,
+.title {
+    margin: 0 0 3px;
+}
+.download a {
+    position: relative;
+}
+.download a::after{
+    content: "";
+    background:  url("../img/icon-download.png") no-repeat center;
+    background-size: cover;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: -1px;
+    left: 2px;
+    margin-right: 2px;
+}
+code {
+    background: lightgray;
+    margin: 0 0 5px;
+    padding: 2px;
+    display: inline-block;
+}
+.nodejs {
+    border: 1px solid black;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 3px;
+}
+.nodejs__title {
+    font-size: 14px;
+    font-style: italic;
+}
+
+.service__item a{
+    color: darkred;
+    text-decoration: none;
+}

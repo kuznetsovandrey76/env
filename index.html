@@ -5,66 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Env</title>
-    <style>
-        .title {
-            font-style: italic;
-        }
-        p,
-        .title {
-            margin: 0 0 3px;
-        }
-        .download a {
-            position: relative;
-        }
-        .download a::after{
-            content: "";
-            background:  url("icon-download.png") no-repeat center;
-            background-size: cover;
-            display: inline-block;
-            width: 20px;
-            height: 20px;
-            position: absolute;
-            top: -1px;
-            left: 2px;
-            margin-right: 2px;
-        }
-        code {
-            background: lightgray;
-            margin: 0 0 5px;
-            padding: 2px;
-            display: inline-block;
-        }
-        .nodejs {
-            border: 1px solid black;
-            display: inline-block;
-            border-radius: 10px;
-            padding: 5px;
-            margin-bottom: 3px;
-        }
-        .nodejs__title {
-            font-size: 14px;
-            font-style: italic;
-        }
-    </style>
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
     <h3 class="title">Настройка окружения</h3>
-    <p class="download">OpenServer <a href="http://open-server.ru/"></a></p>
-    <p class="download">VSCode <a href="https://code.visualstudio.com/"></a></p>
-    <p class="download">Git <a href="https://git-scm.com/"></a></p>    
-    <p class="download">Node JS - LTS version<a href="https://nodejs.org/en/"></a></p>
-    <div class="nodejs">
-        <p class="nodejs__title">после установки Node JS</p>
-        <p class="download">Gulp <a href="http://gulpjs.com/"></a></p>
-        <code>npm install gulp-cli -g</code>
-        <p class="download">SASS <a href="http://sass-lang.com/install"></a></p>
-        <code>npm install sass -g</code>
+    <div class="tool">
+        <p class="download">OpenServer <a href="http://open-server.ru/"></a></p>
+        <p class="download">VSCode <a href="https://code.visualstudio.com/"></a></p>
+        <p class="download">Git <a href="https://git-scm.com/"></a></p>    
+        <p class="download">Node JS - LTS version<a href="https://nodejs.org/en/"></a></p>
+        <div class="nodejs">
+            <p class="nodejs__title">после установки Node JS</p>
+            <p class="download">Gulp <a href="http://gulpjs.com/"></a></p>
+            <code>npm install gulp-cli -g</code>
+            <p class="download">SASS <a href="http://sass-lang.com/install"></a></p>
+            <code>npm install sass -g</code>
+        </div>
+        <p class="download">Ruby - [1,2,3]<a href="http://rubyinstaller.org/"></a></p>    
+        <p class="download">WinSCP <a href="https://winscp.net/eng/download.php"></a></p>
+        <p class="download">Putty <a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html"></a></p>
+        <p class="download">F.lux <a href="https://justgetflux.com/"></a></p>
+        <p class="download">Launchy <a href="http://www.launchy.net/download.php"></a></p>
+        <p class="download">ConEmu <a href="https://conemu.github.io/"></a></p> 
+        <p class="download">Skype <a href="https://www.skype.com/ru/get-skype/"></a></p> 
     </div>
-    <p class="download">Ruby - [1,2,3]<a href="http://rubyinstaller.org/"></a></p>    
-    <p class="download">WinSCP <a href="https://winscp.net/eng/download.php"></a></p>
-    <p class="download">Putty <a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html"></a></p>
-    <p class="download">F.lux <a href="https://justgetflux.com/"></a></p>
-    <p class="download">Launchy <a href="http://www.launchy.net/download.php"></a></p>
-    <p class="download">ConEmu <a href="https://conemu.github.io/"></a></p> 
+    <div class="service">
+        <h3 class="title service__title">Links</h3>
+        <p class="service__item"><a href="https://github.com/">GitHub</a></p>
+        <p class="service__item"><a href="https://gitlab.com/">GitLab</a></p>
+        <p class="service__item"><a href="https://gulpjs.com/">Gulp</a></p>
+        <p class="service__item"><a href="https://webpack.js.org/">Webpack</a></p>
+        <p class="service__item"><a href="http://sass-lang.com/">SASS</a></p>
+        <p class="service__item"><a href="https://bower.io/">Bower</a></p>
+        <p class="service__item"><a href="https://eslint.org/">ESLint</a></p>
+        <p class="service__item"><a href="https://tlgrm.ru/web">Telegram</a></p>
+    </div> 
 </body>
 </html>
